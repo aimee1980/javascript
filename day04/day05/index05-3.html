@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Can JavaScript Do?</title>
+    <link rel="stylesheet" href="styles05.css">
+    <!--this is once i entered my code to into gpt -->
+</head>
+<body>
+    <h1 id="myHeading">What Can JavaScript Do?</h1>
+    <br>
+  
+    <p>JavaScript can change HTML attribute values.</p>
+    <br>
+    <p>In this case, JavaScript changes the value of the src (source) attribute of an image.</p>
+
+    <img id="myImage" src="pic_bulbon.gif" style="width:100px">
+    <button onclick="docSument.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+    
+    <hr>
+    
+    <h1>Change the color! press color buttons to change the title</h1>
+    
+    
+    <p id="lorem">Lorem ipsum dolor sit amet consectetur...</p>
+    
+    <br>
+    <button onclick="document.getElementById('lorem').style.fontFamily = 'Arial'">Change Font to Arial</button>
+    <button onclick="document.getElementById('lorem').style.fontFamily = 'Times New Roman'">Change Font to Times</button>
+    
+    <br><br>
+    <button style="border: none; border-radius: 8px; height: 30px; width: 70px; background: blue;" onclick="document.getElementById('myHeading').style.color='blue'">Blue</button>
+<button style="border: none; border-radius: 8px; height: 30px; width: 70px; background: #256e03;" onclick="document.getElementById('myHeading').style.color='green'">Green</button>
+<button style="border: none; border-radius: 8px; height: 30px; width: 70px; background: #e40808;" onclick="document.getElementById('myHeading').style.color='red'">Red</button>
+<button style="border: none; border-radius: 8px; height: 30px; width: 70px; background: hsl(61, 93%, 46%);" onclick="document.getElementById('myHeading').style.color='yellow'">Yellow</button>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>

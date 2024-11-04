@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>what can javaScript can do-lightbulb
+        
+    </title>
+    <link rel="stylesheet" href="styles05.css">
+    <link rel="stylesheet" href="index05-2.html">
+</head>
+<!--turn light bulb 
+on and off work, need to
+still work on font and rev font.
+tried to change color of h1 but
+ doing something wrong-->
+<body>
+    <h1>what can javaScript do </h1>
+        <br>
+  
+<p>javascript can change HTML attribute values </p>
+<br>
+<p>In this case javaScript changes the value of the src (source) attribute of an Image.</p>
+
+
+
+
+
+
+    <img id="myImage" src="pic_bulbon.gif" style="width:100px">
+     <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+   
+ 
+     <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+  <hr> 
+   <h1 id="myHeading">Change the color!</h1>
+   <button onclick="changeColor()">Change Color</button>
+   <script src="script.js"></script>
+   <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut corrupti maxime inventore! Quos fugit blanditiis animi, perspiciatis eaque fugiat placeat, nam dolores eos odio eveniet eius facilis atque. Ducimus repudiandae dolore incidunt, delectus excepturi doloremque quis sunt quasi ipsa, voluptatum dolorum minima possimus facere maiores quaerat cumque. Eligendi labore reprehenderit cumque unde inventore earum esse fuga aliquid totam nostrum officiis iste odio illum quibusdam minus impedit, velit voluptatum nobis quos accusamus beatae laboriosam autem! Quidem necessitatibus fugiat minus tempore iste nobis perspiciatis nulla? Dolorem corrupti ab a modi, quisquam repellendus ratione laborum, quas porro, asperiores non sed deleniti quos libero!</p> 
+<br>
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Click to change the font</button> 
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">reverse font</button>
+<br><br>
+<button style="border: none; border-radius: 8px;
+height: 30px;width: 70px;background: blue;"
+onclick="document.getElementById('title').style.
+color='blue'"
+></button>
+
+<button style="border: none; border-radius: 8px;
+height: 30px;width: 70px;background: #256e03;"
+onclick="document.getElementById('title').style.
+color='green'"
+></button>
+
+
+<button style="border: none; border-radius: 8px;
+height: 30px;width: 70px;background: #e40808;"
+onclick="document.getElementById('title').style.
+color='red'"
+></button>
+
+
+<button style="border: none; border-radius: 8px;
+height: 30px;width: 70px;background: hsl(61, 93%, 46%);"
+onclick="document.getElementById('title').style.
+color='yellow'"
+></button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
